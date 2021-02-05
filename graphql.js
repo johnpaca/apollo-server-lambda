@@ -15,7 +15,7 @@ class AvailabilityAPI extends RESTDataSource {
 
   constructor() {
     super();
-    this.baseURL = PROD_URL;
+    this.baseURL = INT_URL;
   }
 
   async getOffers(dateRange) {
@@ -35,7 +35,7 @@ class HotelAPI extends RESTDataSource {
 
   constructor() {
     super();
-    this.baseURL = PROD_URL;
+    this.baseURL = INT_URL;
   }
 
   async getHotel(id) {
